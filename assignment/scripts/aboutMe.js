@@ -100,9 +100,13 @@ switch (luckyNumber){
         console.log('Third is the one with the polka dot dress')
         break;
     default: 
-        console.log('Luck is what happens when preparation meets opportunity')
+        console.log('Luck is what happens when preparation meets opportunity');
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+function todo(adventurous){
+return (adventurous ? 'Adventures are great!' : 'How about we stay at home?');
+}
 
+console.log (todo(true))
